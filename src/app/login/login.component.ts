@@ -34,6 +34,10 @@ export class LoginComponent implements OnInit{
     // console.log(this.password)
     // console.log("password also match")
   }
+  eventBindingOfResetOrHandleReset(){
+    this.username='';
+    this.password='';
+  }
 
   ngOnInit(): void {
   }
